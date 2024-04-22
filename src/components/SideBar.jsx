@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const SideBar = () => {
@@ -9,7 +10,7 @@ const SideBar = () => {
   return (
     <div className="p-5 w-48">
       <ul>
-        <li>Home</li>
+        <li><Link to="/">Home</Link></li>
         <li>Shorts</li>
         <li>Subscriptions</li>
       </ul>
