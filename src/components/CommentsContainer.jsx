@@ -60,7 +60,7 @@ const CommentData = [
 const Comment = ({data}) => {
   const { name, text } = data;
   return (
-    <div className="flex flex-wrap p-2 my-2 bg-gray-200 rounded-lg">
+    <div className="flex flex-wrap p-2 my-2 bg-gray-200 rounded-lg max-w-6xl">
       <img
       width={60}
         className="w-12 h-12 mx-3"
